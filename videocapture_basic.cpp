@@ -18,6 +18,8 @@ int main(int, char**)
 {
     Mat frame;
     //--- INITIALIZE VIDEOCAPTURE
+    
+    // opencv에서 fd를 설정하는 것
     VideoCapture cap;
     // open the default camera using default API
     // cap.open(0);
